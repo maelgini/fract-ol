@@ -12,6 +12,7 @@ If you want to explore my project clone the repository with :
 
 ```sh
 git clone git@github.com:maelgini/fract-ol.git
+```
 
 Then situate yourself inside the repo :
 
