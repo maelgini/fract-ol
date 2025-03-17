@@ -71,7 +71,12 @@ Given this I started to build a structure containing complex and real numbers to
 
 ### COLORS
 
-One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, Its mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation (https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring)  to eliminate all color bandings and have a smooth gradient from black outside the set and the 
+One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, Its mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation (https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring)
+
+
 ![potential function screenshot](screenshots/potential_function.png)
+
+to eliminate all color bandings and have a smooth gradient from black outside the set (Z(0)) to blue then green then finally red, Its an R->G->B gradient from Zmax to Z0 which is probably the best color set to represent the depth of fractals (as you can see in the screenshots)
+
 
 You will have to handle each pixel and test how they behave, This is called plotting, 
