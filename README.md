@@ -1,5 +1,5 @@
 # FRACT-OL
-!([Project banner](screenshots/logo.png)
+![Project banner](screenshots/logo.png)
 ## SCREENSHOTS
 ![Mandelbrot fractal](screenshots/mandelbrot1.png)
 ![Julia fractal 1](screenshots/julia3.png)
