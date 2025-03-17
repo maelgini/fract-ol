@@ -61,7 +61,10 @@ bin/fractol <julia> <double x> <double y>
 First of all if you are not familiar with iterative functions I suggest you take a look at this article if not already done : https://en.wikipedia.org/wiki/Mandelbrot_set
 It can get kind of overwhelming to represent this by coding it but this is easier than it looks.
 ### FORMULA
-z^2 + c, This formula is iterated on the complex plane, which means that we will use complex numbers as our y axis and reals on the x axis, This is what makes this set particular and so unique.
+$$
+\phi(z) = z^2 + c
+$$
+This formula is iterated on the complex plane, which means that we will use complex numbers as our y axis and reals on the x axis, This is what makes this set particular and so unique.
 When you chose a point on your complex plain and iterate this function you can get different behaviors :
 
 It either diverges (the iteration of the chosen point by the formula makes it quickly or slowly branch off of the plane depending on how close it is to the figure)
