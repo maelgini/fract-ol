@@ -99,6 +99,10 @@ Given this I started to build a structure containing complex and real numbers to
 
 After you have a strong mlx display implementation each pixel is handlable easily and derivable using the mandelbrot formula also apply your color algorithm to it.
 
+### BONUS FRACTALS
+
+
+
 ### COLOR ALGORITHM
 
 One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, It it mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation ([Wikipedia link](https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring))
@@ -107,5 +111,15 @@ $\phi(z) = \lim_{n \to \infty} (\log |z_n| / P^n)$.
 
 to eliminate all color bandings and have a smooth gradient from black outside the set $(Z_{0})$ to blue then green then finally red, Its an RGB gradient respectively from $Z_{max}$ to $Z_{0}$ which is probably the best colorset to represent the depth of fractals (as you can see in the screenshots)
 
+
+### THE NEWTON FRACTAL 💀
+
+Probably the most time consuming and worthless bonus possible, This fractal required root distance calcation, formula derivation and root aproximation codings, As all other fractals didnt require any hard coding, I can't advise you to not do this one any more than that...
+
+Concept :
+
+The newton fractal's rendering can seem quite simplish and irrelevant but its significantly harder than all the other ones.
+
+Formula : $$ p(z) = z^3 - 1 $$
 
 
