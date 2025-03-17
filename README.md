@@ -75,7 +75,7 @@ One of the most import part of the project is the color management because it is
 
 $\phi(z) = \lim_{n \to \infty} (\log |z_n| / P^n)$.
 
-to eliminate all color bandings and have a smooth gradient from black outside the set (Z(0)) to blue then green then finally red, Its an R->G->B gradient from Zmax to Z0 which is probably the best colorset to represent the depth of fractals (as you can see in the screenshots)
+to eliminate all color bandings and have a smooth gradient from black outside the set $(Z_{0})$ to blue then green then finally red, Its an R->G->B gradient from Zmax to Z0 which is probably the best colorset to represent the depth of fractals (as you can see in the screenshots)
 
 
 You will have to handle each pixel and test how they behave, This is called plotting, 
