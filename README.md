@@ -28,7 +28,8 @@ make
 
 Go back to the root of the folder and make
 
-```sh cd ..
+```sh
+cd ..
 cd ..
 make
 ```
