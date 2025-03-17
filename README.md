@@ -47,7 +47,7 @@ or
 bin/fractol <julia> <double x> <double y>
 ```
 
-(these 2 double values will be the coordinates of the point inside the mandelbrot set you want to display)
+(The julia fractal will always need 2 more arguments, these 2 double values will be the coordinates of the point inside the mandelbrot set you want to display as a Julia set)
 ## SCREENSHOTS
 ![Mandelbrot fractal](screenshots/mandelbrot1.png)
 ![Julia fractal 1](screenshots/julia3.png)
