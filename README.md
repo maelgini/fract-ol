@@ -67,7 +67,7 @@ It's good to make a performant and good-looking program but this project is a tr
 
 I personally enjoyed this project a lot hope you will too and good luck!
 
-### MINILIBX HANDLING
+### MINILIBX & EVENTS HANDLING
 
 You should start by going around the library and browse functions that seem useful.
 
@@ -75,7 +75,7 @@ There is a specific order of function calls to get a proper manipulable window t
 
 Also DO NOT forget to initialize everything correctly to avoid conditionnal jumps depending of uninitialised values, AND free everything when you are done with display, You don't necessarily need memory allocation for this project this is the only way you can get leaks.
 
-There are a lot of useful functions inside this given library, It will facilitate the work highly. First of all you will have to use mlx_hook(), mlx_mouse_hook() and mlx_loop() their purpose together are to keep listening to events as long as your program is running and listen for mouse and keyboard inputs to handle the bonuses easily.
+There are a lot of useful functions inside this given library, It will facilitate the work highly. First of all you will have to use mlx_hook(), mlx_mouse_hook() and mlx_loop() their purpose together are to keep listening to events as long as your program is running and return a specific code to help you handle the bonuses easily.
 
 All different possible inputs have a respective X11 symbol code (![x11 keysym](https://www.cl.cam.ac.uk/~mgk25/ucs/keysymdef.h)), That's what I used to identify which input is activated while the program is running.
 
@@ -91,12 +91,15 @@ It either diverges (the iteration of the chosen point by the formula makes it qu
 
 Or it can converge inside the fractal and stay inside it almost infinetely (limited by the machine).
 
+A good information I can give is that a coordinate can be seen an hypotenuse, as any coordinate form a right triangle on a plane, their position's hypotenuse can be seen as having a lenght, and in this particular case of the mandelbrot set, an interesting observation is that if the coordinate triangle's sides are both of length 2 at least; it is recurrently always outside the set, So you can implement a quick few lines of code stating that if any coordinate's hypotenuse is 4 then it's automatically diverging which can be useful for optimization.
+
 Given this I started to build a structure containing complex and real numbers to manipulate them.
 
+After you have a strong mlx display implementation each pixel is handlable easily and derivable using the mandelbrot formula also apply your color algorithm to it.
 
 ### COLOR ALGORITHM
 
-One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, Its mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation ([Wikipedia link](https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring))
+One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, It it mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation ([Wikipedia link](https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring))
 
 $\phi(z) = \lim_{n \to \infty} (\log |z_n| / P^n)$.
 
