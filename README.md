@@ -1,5 +1,5 @@
 # FRACT-OL
-
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ## SCREENSHOTS
 ![Mandelbrot fractal](screenshots/mandelbrot1.png)
 ![Julia fractal 1](screenshots/julia3.png)
