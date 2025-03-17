@@ -7,7 +7,7 @@ This will be an opportunity for you to become familiar with the MiniLibX library
 cover or use the mathematical concept of complex numbers, explore computer graphics
 optimization, and practice event handling.
 ## USAGE
-If you want to explore my project clone the repository with :
+If you want to explore my project clone the repository with :\n
 `git clone git@github.com:maelgini/fract-ol.git`
 Then situate yourself inside the repo :
 `cd fract-ol`
