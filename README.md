@@ -56,11 +56,25 @@ bin/fractol <julia> <double x> <double y>
 ![Burningship fractal](screenshots/burningship1.png)
 ![Tricorn fractal](screenshots/tricorn1.png)
 
-## CODE
+## BREAKDOWN
 
+### Foreword
 First of all if you are not familiar with iterative functions I suggest you take a look at this article if not already done : https://en.wikipedia.org/wiki/Mandelbrot_set
 It can get kind of overwhelming to represent this by coding it but this is easier than it looks.
+It's good to make a performant and good-looking program but this project is a true RABBIT HOLE so be careful about the time you spend doing additionnal things.
+I personally enjoyed this project a lot hope you will too and good luck!
+
+### MINILIBX HANDLING
+
+You should start by going around the library and browse functions that seem useful.
+There is a specific order of function calls to get a proper manipulable window that can display pixels correctly, Try to browse the library and understand which order makes the most sense, Same thing when you are finished with the display and want to close everything.
+Also DO NOT forget to initialize everything correctly to avoid conditionnal jumps depending of uninitialised values, AND free everything when you are done with display, You don't necessarily need memory allocation for this project this is the only way you can get leaks.
+There are a lot of useful functions inside this given library, It will facilitate the work highly. First of all you will have to use mlx_hook(), mlx_mouse_hook() and mlx_loop() their purpose together are to keep listening to events as long as your program is running and listen for mouse and keyboard inputs to handle the bonuses easily.
+All different possible inputs have a respective X11 symbol code (![x11 keysym](https://www.cl.cam.ac.uk/~mgk25/ucs/keysymdef.h)), That's what I used to identify which input is activated while the program is running.
+To understand it a bit better you can printf "keysym" (Don't forget to include the library!) with %s to visualise the triggered code for each key.
+
 ### FORMULA
+
 $Z_{n+1} = Z_n^2 + c$. This formula is iterated on the complex plane, which means that we will use complex numbers as our y axis and reals on the x axis, This is what makes this set particular and so unique.
 When you chose a point on your complex plain and iterate this function you can get different behaviors :
 
@@ -69,7 +83,7 @@ Or it can converge inside the fractal and stay inside it almost infinetely (limi
 Given this I started to build a structure containing complex and real numbers to manipulate them.
 
 
-### COLORS
+### COLOR ALGORITHM
 
 One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, Its mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation ([Wikipedia link](https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring))
 
@@ -78,4 +92,4 @@ $\phi(z) = \lim_{n \to \infty} (\log |z_n| / P^n)$.
 to eliminate all color bandings and have a smooth gradient from black outside the set $(Z_{0})$ to blue then green then finally red, Its an RGB gradient respectively from $Z_{max}$ to $Z_{0}$ which is probably the best colorset to represent the depth of fractals (as you can see in the screenshots)
 
 
-You will have to handle each pixel and test how they behave, This is called plotting, 
+
