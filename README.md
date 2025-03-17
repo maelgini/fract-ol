@@ -71,7 +71,7 @@ Given this I started to build a structure containing complex and real numbers to
 
 ### COLORS
 
-One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, Its mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation (https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring)
+One of the most import part of the project is the color management because it is what gives that depth impression to your rendering, Its mandatory to set colors to be different for each iteration of your fractal, I decided to implement a linear interpolation ([Wikipedia link](https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set#Continuous_(smooth)_coloring))
 
 $\phi(z) = \lim_{n \to \infty} (\log |z_n| / P^n)$.
 
