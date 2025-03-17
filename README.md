@@ -120,6 +120,8 @@ Concept :
 
 The newton fractal's rendering can seem quite simplish and irrelevant but its significantly harder than all the other ones.
 
-Formula : $$ p(z) = z^3 - 1 $$
+Formula : $$p(z) = z^3 - 1$$
+
+
 
 
