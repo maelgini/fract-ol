@@ -18,26 +18,33 @@ Then situate yourself inside the repo :
 
 ```sh
 cd fract-ol
+```
 
 Access the lib/ folder then minilibx-linux/ and make inside of it :
 
 ```sh cd lib/minilibx-linux/
-```sh make
+make
+```
 
 Go back to the root of the folder and make
 
 ```sh cd ..
 cd ..
-make```
+make
+```
 
 The binary will automatically be placed in bin/
 To run the program, do :
 
-`bin/fractol <mandelbrot/tricorn/burningship/newton>`
+```sh
+bin/fractol <mandelbrot/tricorn/burningship/newton>
+```
 
 or
 
-`bin/fractol <julia> <double x> <double y>`
+```sh
+bin/fractol <julia> <double x> <double y>
+```
 
 (these 2 double values will be the coordinates of the point inside the mandelbrot set you want to display)
 ## SCREENSHOTS
