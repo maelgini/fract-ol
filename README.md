@@ -10,16 +10,16 @@ optimization, and practice event handling.
 ## USAGE
 If you want to explore my project clone the repository with :
 
-```shgit clone git@github.com:maelgini/fract-ol.git```
+```sh git clone git@github.com:maelgini/fract-ol.git```
 
 Then situate yourself inside the repo :
 
-```shcd fract-ol```
+```sh cd fract-ol```
 
 Access the lib/ folder then minilibx-linux/ and make inside of it :
 
-```shcd lib/minilibx-linux/
-make`
+```sh cd lib/minilibx-linux/
+make```
 
 Go back to the root of the folder and make
 
