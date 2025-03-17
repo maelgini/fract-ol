@@ -1,3 +1,5 @@
+# FRACT-OL
+
 ## SCREENSHOTS
 ![Fractol Examples](screenshots/mandelbrot1.png)
 ![Fractol Examples](screenshots/julia3.png)
