@@ -1,9 +1,9 @@
 # FRACT-OL
 
-### SCREENSHOTS
-![Fractol Examples](screenshots/mandelbrot1.png)
-![Fractol Examples](screenshots/julia3.png)
-![Fractol Examples](screenshots/julia1.png)
-![Fractol Examples](screenshots/newton1.png)
-![Fractol Examples](screenshots/burningship1.png)
-![Fractol Examples](screenshots/tricorn1.png)
+## SCREENSHOTS
+![Mandelbrot fractal](screenshots/mandelbrot1.png)
+![Julia fractal 1](screenshots/julia3.png)
+![Julia fractal 2](screenshots/julia1.png)
+![Newton fractal](screenshots/newton1.png)
+![Burningship fractal](screenshots/burningship1.png)
+![Tricorn fractal](screenshots/tricorn1.png)
