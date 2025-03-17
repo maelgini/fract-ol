@@ -1,3 +1,4 @@
+#Fractol
 ![Fractol Examples](screenshots/mandelbrot1.png)
 ![Fractol Examples](screenshots/julia3.png)
 ![Fractol Examples](screenshots/julia1.png)
