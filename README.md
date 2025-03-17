@@ -116,12 +116,9 @@ to eliminate all color bandings and have a smooth gradient from black outside th
 
 Probably the most time consuming and worthless bonus possible, This fractal required root distance calcation, formula derivation and root aproximation codings, As all other fractals didnt require any hard coding, I can't advise you to not do this one any more than that...
 
-Concept :
-
 The newton fractal's rendering can seem quite simplish and irrelevant but its significantly harder than all the other ones.
 
 Formula : $$p(z) = z^3 - 1$$
 
-
-
-
+Concept : Still on the complex plane, Regions of this plane $$G_k$$ all have associated roots of this polynoma, for this specific formula 3 roots are resulting. Almost all points of the complex plane are associated with one of the $$\deg(p)$$
+roots of a given polynomial in the following way: the point is used as starting value $$z_0 for Newton's iteration $$zn + 1 := zn − ⁠p(zn)/p'(zn)$$⁠, yielding a sequence of points $$z_1$$, $$z_2$$, …, If the sequence converges to the root $$ζ_k$$, then $$$z_0$$ was an element of the region $$G_k$$. However, for every polynomial of degree at least 2 there are points for which the Newton iteration does not converge to any root: examples are the boundaries of the basins of attraction of the various roots. There are even polynomials for which open sets of starting points fail to converge to any root: a simple example is z3 − 2z + 2, where some points are attracted by the cycle 0, 1, 0, 1… rather than by a root.
