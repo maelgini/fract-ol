@@ -10,22 +10,24 @@ optimization, and practice event handling.
 ## USAGE
 If you want to explore my project clone the repository with :
 
-```sh git clone git@github.com:maelgini/fract-ol.git```
+```sh
+git clone git@github.com:maelgini/fract-ol.git
 
 Then situate yourself inside the repo :
 
-```sh cd fract-ol```
+```sh
+cd fract-ol
 
 Access the lib/ folder then minilibx-linux/ and make inside of it :
 
 ```sh cd lib/minilibx-linux/
-make```
+```sh make
 
 Go back to the root of the folder and make
 
-`cd ..
+```sh cd ..
 cd ..
-make`
+make```
 
 The binary will automatically be placed in bin/
 To run the program, do :
