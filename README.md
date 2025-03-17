@@ -81,6 +81,8 @@ All different possible inputs have a respective X11 symbol code (![x11 keysym](h
 
 To understand it a bit better you can printf "keysym" (Don't forget to include the library!) with %s to visualise the triggered code for each key.
 
+Summary of events : Check the code symbol of each useful key and bound an action to it in a small lexer, Example pseudo codes : If keysym returned is Escape code, then close all and free cleanly // If keysym returned is a directionnal arrow code, offset your fractal accordingly etc.
+
 ### FORMULA
 
 $Z_{n+1} = Z_n^2 + c$. This formula is iterated on the complex plane, which means that we will use complex numbers as our y axis and reals on the x axis, This is what makes this set particular and so unique.
