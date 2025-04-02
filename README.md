@@ -112,7 +112,7 @@ $\phi(z) = \lim_{n \to \infty} (\log |z_n| / P^n)$.
 to eliminate all color bandings and have a smooth gradient from black outside the set $(Z_{0})$ to blue then green then finally red, Its an RGB gradient respectively from $Z_{max}$ to $Z_{0}$ which is probably the best colorset to represent the depth of fractals (as you can see in the screenshots)
 
 
-### THE NEWTON FRACTAL 💀
+### THE NEWTON FRACTAL
 
 Probably the most time consuming and worthless bonus possible, This fractal required root distance calcation, formula derivation and root aproximation codings, As all other fractals didnt require any hard coding, I can't advise you to not do this one any more than that...
 
