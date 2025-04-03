@@ -114,7 +114,7 @@ to eliminate all color bandings and have a smooth gradient from black outside th
 
 ### THE NEWTON FRACTAL
 
-Probably the most time consuming and worthless bonus possible, This fractal required root distance calcation, formula derivation and root aproximation codings, As all other fractals didnt require any hard coding, I can't advise you to not do this one any more than that...
+Probably the most time consuming and worthless bonus possible, This fractal required root distance calcation, formula derivation and root aproximation codings, As all other fractals didnt require any hard coding.
 
 The newton fractal's rendering can seem quite simplish and irrelevant but its significantly harder than all the other ones.
 
